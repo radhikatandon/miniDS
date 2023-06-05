@@ -49,8 +49,8 @@
                     Components
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item active" href="#">Cards</a></li>
-                    <li><a class="dropdown-item" href="../components/button.html">Buttons</a></li>
+                    <li><a class="dropdown-item" href="../components/cards.html">Cards</a></li>
+                    <li><a class="dropdown-item active" href="#">Buttons</a></li>
                     <li><a class="dropdown-item" href="../components/nav.html">Nav Bar</a></li>
                   </ul>
                 </li>
@@ -73,7 +73,7 @@
    <div class="title type1">
     <div class="row align-items-start">
       <div class="col">
-        <h1>Cards</h1>  
+        <h1>Buttons</h1>  
       </div>
     </div>
   </div>
@@ -85,17 +85,20 @@
       <div class="col navpage">
         <h3>Design, Uses, and Code:</h3> 
             <p>
-                 The card features an image, with a title and a subtitle, and a link to the page it is referencing. The card's primary 
-                 use is to be a project preview. The image should pertain to the project and feature a screen, and all images on the 
-                 portfolio site used for card should match in style and presentation. Subtitles should not be more than a few words describing 
-                 a project.
+                Buttons are used to navigate through as a user browses a page. The main purpose of a button will be to take users to another main 
+                page: About, Projects, Contact, or serve as links to projects in cards.
             </p>
         <hr>
-  <p>Card</p>
-  <img src="../imgs/cards/card.png" alt="card with image, title, and link"><br><br>
+  <p>Button</p>
+  <img src="../imgs/buttons/Button.png" alt="button"><br><br>
+  <img src="../imgs/buttons/Button Hover.png" alt="button hover purple"><br><br>
+  <img src="../imgs/buttons/ButtonActive.png" alt="button active underline"><br><br>
+  <img src="../imgs/buttons/ButtonTransparent.png" alt="button transparent"><br><br>
   <hr>
-  <p>Card Dimensions</p>
-  <img src="../imgs/cards/card dimensions.png" alt="card with dimensions">
+  <p>Text Button</p>
+  <img src="../imgs/buttons/TextButton.png" alt="text button"><br>
+  <img src="../imgs/buttons/TextButtonHover.png" alt="text button hover pink"><br>
+  <img src="../imgs/buttons/TextButtonActive.png" atl="text button underline">
 
 <br>
 </div>
@@ -109,16 +112,12 @@
     <h4>HTML code</h4>
 <pre>
     <br>
-    &lt;div class="card" style="width: 330px">
-        &lt;img src="..." class="card-img-top" alt="...">
-        &lt;div class="card-body">
-            &lt;h5 class="card-title">Title&lt;/h5>
-            &lt;p class="card-text">Subtitle&lt;/p>
-            &lt;br>
-            &lt;a href="#" class="card-link">Link&lt;/a>
-        &lt;/div>
-    &lt;/div>
-        <br>
+    &lt;button type="button" class="btn btn-primary">Button&lt;/button>
+    &lt;button type="button" class="btn btn-outline-primary">Button&lt;/button>
+    <br>
+</pre>
+<pre>
+    &lt;a href="#">About&lt;/a>&lt;img src="buttonArrow">
 </pre>
 </div>
 <br>
